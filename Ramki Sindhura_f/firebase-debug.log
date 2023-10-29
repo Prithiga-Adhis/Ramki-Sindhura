@@ -1,0 +1,289 @@
+[debug] [2023-10-29T13:59:29.519Z] ----------------------------------------------------------------------
+[debug] [2023-10-29T13:59:29.521Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-29T13:59:29.521Z] CLI Version:   12.7.0
+[debug] [2023-10-29T13:59:29.522Z] Platform:      win32
+[debug] [2023-10-29T13:59:29.522Z] Node Version:  v18.18.2
+[debug] [2023-10-29T13:59:29.523Z] Time:          Sun Oct 29 2023 19:29:29 GMT+0530 (India Standard Time)
+[debug] [2023-10-29T13:59:29.523Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-29T13:59:29.603Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-29T13:59:29.604Z] > authorizing via signed-in user (vinisharajkumar.ccl@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Ramki Sindhura
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2023-10-29T13:59:37.091Z] setProjectAccount(C:\Ramki Sindhura, vinisha.1901259@srec.ac.in)
+[info] 
+[info] +  Using account: vinisha.1901259@srec.ac.in 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-29T13:59:37.109Z] Using project from CLI flag: ramanna-weds-sindhuraanni
+[debug] [2023-10-29T13:59:37.110Z] > refreshing access token with scopes: []
+[debug] [2023-10-29T13:59:37.112Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-10-29T13:59:37.112Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-29T13:59:37.380Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-10-29T13:59:37.380Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-29T13:59:37.389Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni [none]
+[debug] [2023-10-29T13:59:37.858Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni 403
+[debug] [2023-10-29T13:59:37.858Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-10-29T13:59:37.859Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-10-29T13:59:38.078Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project ramanna-weds-sindhuraanni. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-10-29T14:00:08.098Z] ----------------------------------------------------------------------
+[debug] [2023-10-29T14:00:08.101Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-29T14:00:08.101Z] CLI Version:   12.7.0
+[debug] [2023-10-29T14:00:08.101Z] Platform:      win32
+[debug] [2023-10-29T14:00:08.102Z] Node Version:  v18.18.2
+[debug] [2023-10-29T14:00:08.103Z] Time:          Sun Oct 29 2023 19:30:08 GMT+0530 (India Standard Time)
+[debug] [2023-10-29T14:00:08.104Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-29T14:00:08.178Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-29T14:00:08.179Z] > authorizing via signed-in user (vinisha.1901259@srec.ac.in)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Ramki Sindhura
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2023-10-29T14:00:15.907Z] setProjectAccount(C:\Ramki Sindhura, vinisha.1901259@srec.ac.in)
+[info] 
+[info] +  Using account: vinisha.1901259@srec.ac.in 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-29T14:00:15.920Z] Using project from CLI flag: ramanna-weds-sindhuraanni
+[debug] [2023-10-29T14:00:15.922Z] > refreshing access token with scopes: []
+[debug] [2023-10-29T14:00:15.923Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-10-29T14:00:15.923Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-29T14:00:16.157Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-10-29T14:00:16.157Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-29T14:00:16.163Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni [none]
+[debug] [2023-10-29T14:00:16.561Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni 403
+[debug] [2023-10-29T14:00:16.561Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-10-29T14:00:16.563Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-10-29T14:00:16.787Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project ramanna-weds-sindhuraanni. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-10-29T14:02:00.930Z] ----------------------------------------------------------------------
+[debug] [2023-10-29T14:02:00.932Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-29T14:02:00.933Z] CLI Version:   12.7.0
+[debug] [2023-10-29T14:02:00.933Z] Platform:      win32
+[debug] [2023-10-29T14:02:00.933Z] Node Version:  v18.18.2
+[debug] [2023-10-29T14:02:00.934Z] Time:          Sun Oct 29 2023 19:32:00 GMT+0530 (India Standard Time)
+[debug] [2023-10-29T14:02:00.934Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-29T14:02:01.023Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-29T14:02:01.023Z] > authorizing via signed-in user (vinisha.1901259@srec.ac.in)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Ramki Sindhura
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2023-10-29T14:02:13.911Z] setProjectAccount(C:\Ramki Sindhura, vinisha.1901259@srec.ac.in)
+[info] 
+[info] +  Using account: vinisha.1901259@srec.ac.in 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-29T14:02:13.928Z] Using project from CLI flag: ramanna-weds-sindhuraanni
+[debug] [2023-10-29T14:02:13.930Z] > refreshing access token with scopes: []
+[debug] [2023-10-29T14:02:13.931Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-10-29T14:02:13.931Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-29T14:02:14.163Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-10-29T14:02:14.163Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-29T14:02:14.170Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni [none]
+[debug] [2023-10-29T14:02:14.859Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni 403
+[debug] [2023-10-29T14:02:14.859Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-10-29T14:02:14.860Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-10-29T14:02:15.113Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project ramanna-weds-sindhuraanni. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-10-29T14:31:48.682Z] ----------------------------------------------------------------------
+[debug] [2023-10-29T14:31:48.684Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-29T14:31:48.685Z] CLI Version:   12.7.0
+[debug] [2023-10-29T14:31:48.685Z] Platform:      win32
+[debug] [2023-10-29T14:31:48.685Z] Node Version:  v18.18.2
+[debug] [2023-10-29T14:31:48.686Z] Time:          Sun Oct 29 2023 20:01:48 GMT+0530 (India Standard Time)
+[debug] [2023-10-29T14:31:48.687Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-29T14:31:48.765Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-29T14:31:48.765Z] > authorizing via signed-in user (vinisha.1901259@srec.ac.in)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Ramki Sindhura
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2023-10-29T14:31:57.385Z] setProjectAccount(C:\Ramki Sindhura, vinisha.1901259@srec.ac.in)
+[info] 
+[info] +  Using account: vinisha.1901259@srec.ac.in 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-29T14:31:57.400Z] Using project from CLI flag: ramanna-weds-sindhuraanni
+[debug] [2023-10-29T14:31:57.402Z] > refreshing access token with scopes: []
+[debug] [2023-10-29T14:31:57.404Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-10-29T14:31:57.404Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-29T14:31:57.670Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-10-29T14:31:57.671Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-29T14:31:57.678Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni [none]
+[debug] [2023-10-29T14:31:58.134Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni 403
+[debug] [2023-10-29T14:31:58.134Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-10-29T14:31:58.135Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-10-29T14:31:58.381Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project ramanna-weds-sindhuraanni. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-10-29T14:32:08.939Z] ----------------------------------------------------------------------
+[debug] [2023-10-29T14:32:08.941Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-29T14:32:08.941Z] CLI Version:   12.7.0
+[debug] [2023-10-29T14:32:08.942Z] Platform:      win32
+[debug] [2023-10-29T14:32:08.942Z] Node Version:  v18.18.2
+[debug] [2023-10-29T14:32:08.943Z] Time:          Sun Oct 29 2023 20:02:08 GMT+0530 (India Standard Time)
+[debug] [2023-10-29T14:32:08.944Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-29T14:32:09.020Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-29T14:32:09.020Z] > authorizing via signed-in user (vinisha.1901259@srec.ac.in)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Ramki Sindhura
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=51939376&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-10-29T14:32:26.960Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2023-10-29T14:32:26.961Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2023-10-29T14:32:27.216Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2023-10-29T14:32:27.216Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2023-10-29T14:32:27.240Z] setProjectAccount(C:\Ramki Sindhura, vinisharajkumar2406@gmail.com)
+[info] 
+[info] +  Using account: vinisharajkumar2406@gmail.com 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-29T14:32:27.257Z] Using project from CLI flag: ramanna-weds-sindhuraanni
+[debug] [2023-10-29T14:32:27.258Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni [none]
+[debug] [2023-10-29T14:32:27.949Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni 403
+[debug] [2023-10-29T14:32:27.949Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ramanna-weds-sindhuraanni {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-10-29T14:32:27.950Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-10-29T14:32:28.204Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\vinis\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project ramanna-weds-sindhuraanni. Please make sure the project exists and your account has permission to access it.
